@@ -8,11 +8,4 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = 'https://nafx0.github.io/donation-bd-blog/';
         });
     }
-
-    if (backBtn) {
-        backBtn.addEventListener('click', function(event) {
-            event.preventDefault();
-            window.location.href = 'https://nafx0.github.io/donate-bd-website/';
-        });
-    }
 });

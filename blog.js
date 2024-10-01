@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (blogBtn) {
         blogBtn.addEventListener('click', function(event) {
             event.preventDefault();
-            window.location.href = 'blog.html';
+            window.location.href = 'https://nafx0.github.io/donation-bd-blog/';
         });
     }
 
     if (backBtn) {
         backBtn.addEventListener('click', function(event) {
             event.preventDefault();
-            window.location.href = 'index.html';
+            window.location.href = 'https://nafx0.github.io/donate-bd-website/';
         });
     }
 });

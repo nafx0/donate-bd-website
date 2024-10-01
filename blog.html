@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DaisyUI + Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+      .lexend-font {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+    </style>
+    <title>Blog</title>
+</head>
+<body>
+    <main class="max-w-screen-xl mx-auto px-5">
+        <div class="flex justify-center my-10">
+            <button class="btn btn-wide" id="back-btn"><img width="24" height="24" src="https://img.icons8.com/sf-regular-filled/48/back.png" alt="back"/>Back to Donation Page</button>
+        </div>
+        <h3 class="text-center pb-5 lg:pb-10 font-bold text-5xl">Common FAQs</h3>
+        <div class="collapse collapse-arrow bg-base-200 lg:mb-10 mb-5">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">FAQ 1: How can I make a donation?</div>
+            <div class="collapse-content">
+              <p>Answer: You can make a donation by clicking the "Donate" button on our homepage. Choose the cause you wish to support, enter your donation amount, and follow the instructions to complete your transaction securely. We accept various payment methods for your convenience.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 lg:mb-10 mb-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">FAQ 2: Where does my donation go?</div>
+            <div class="collapse-content">
+              <p>Answer: Your donations go directly to supporting various charitable initiatives in Bangladesh, including disaster relief, educational programs, and health services. We ensure that a significant portion of your contribution reaches those in need. For more details on our projects, please visit our "Projects" page.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200 lg:mb-10 mb-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">FAQ 3: Can I track my donation?</div>
+            <div class="collapse-content">
+              <p>Answer: Yes! After making a donation, you will receive a confirmation email with details about your contribution. You can also log in to your account on our website to view your donation history and the impact of your contributions.</p>
+            </div>
+          </div>
+    </main>
+    <script src="blog.js"></script>
+</body>
+</html>
